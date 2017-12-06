@@ -1,0 +1,125 @@
+html, body {margin: 0; padding: 0; font: 10pt arial; background-color: #f3f3f3}
+
+/* fontes instaladas */
+
+@font-face {font-family: Opensans; src: url('../fonts/open_sans/OpenSans-ExtraBold.ttf');}
+
+/* fontes instaladas */
+
+a.editing-system {width: 30px; height: 30px; display: block; position: fixed; margin: 5px; top: 0; right: 0; border-radius: 50%; background-image: url("../images/edit.png"); background-size: 100%}
+
+header {width: 100%; overflow: hidden; background-color: #3498db; background-image: url("../images/background-hd.png"); background-size: 100%; background-position: center}
+
+header .head {min-width: 900px; max-width: 1010px; margin: auto;}
+
+header .head .Logo {width: 600px; overflow: hidden; text-decoration: none; color: white; margin: 15px 0; float: left;}
+
+header .head .Logo span {font-size: 1em;}
+
+header .head .Logo h1 {font-size: 28pt; margin: 10px 0; font-family: Opensans}
+
+.flt-right {float: right;}
+
+.flt-right .search {width: auto; overflow: hidden; background-color: white; border: solid thin #ccc; border-radius: 5px; margin-top: 40px}
+
+.flt-right .search input {float: left; border: none; padding: 8px 10px; background-color: white}
+
+.flt-right .search #search-submit {width: 30px; cursor: pointer; background-image: url("../images/sprite.png");}
+
+.menu {width: 100%; background-color: #005570; overflow: hidden;}
+
+.menu-sup {min-width: 900px; max-width: 1010px; margin: auto;}
+
+.menu-sup ul {float: right; margin: 0; padding: 0; list-style: none; margin-right: -5px}
+
+.menu-sup ul li {float: left; width: auto; margin: 10px 5px}
+
+.menu-sup ul li a {color: white; text-decoration: none; padding: 5px}
+
+.content {min-width: 900px; max-width: 1010px; margin: auto; overflow: hidden; margin-bottom: 30px; min-height: 300px}
+
+.content .lat-bar {width: 200px; float: left; margin-top: 40px}
+
+.content .lat-bar ul {margin: 0; padding: 0; list-style: none;}
+
+.content .lat-bar ul li {width: 100%; box-sizing: border-box;}
+
+.lat-bar-fixed {position: fixed; top: 0}
+
+.content .lat-bar ul li a {line-height: 30px; color: #222; display: block; text-decoration: none; box-sizing: border-box; border: solid thin #f3f3f3; padding: 0 10px}
+
+.content .lat-bar ul li a:hover {border: solid thin #ccc; background-color: #fff}
+
+.content .left-content {width: 800px; float: right;}
+
+.content .left-content .slider {width: 100%; height: 350px; overflow: hidden; padding-top: 40px;}
+
+.content .left-content .slider ul {list-style: none; margin: 0; padding: 0; overflow: hidden;}
+
+.content .left-content .slider ul li {width: 800px; height: 350px; box-sizing: border-box; overflow: hidden; position: absolute; background-color: #aaa; float: left;}
+
+.content .left-content .slider ul li .title-news {position: absolute; bottom: 0; line-height: 60px; padding: 0 20px; width: 100%; box-sizing: border-box; background-color: rgba(80, 80, 80, 0.8); font-size: 3em; color: white}
+
+.content .left-content .slider ul li img {width: 100%}
+
+.content .left-content h2 {line-height: 40px; margin: 15px 0; border-top: solid 3px #005570; color: #005570; padding-left: 20px; background-color: #e1e1e1}
+
+.content .left-content a {text-decoration: none; color: #333; display: block;}
+
+.content .left-content a:hover {color: #111}
+
+.content .left-content a .destaque {font-size: 2.5em; font-weight: bold; width: 100%; display: block;}
+
+.content .left-content a .infos-destaque {clear: both; width: 100%; display: block; margin-top: 15px}
+
+hr {width: 100%; height: 3px; border: none; background-color: #444}
+
+.content .left-content .noticias_gerais {overflow: hidden; border: solid thin #aaa; margin-bottom: 30px}
+
+.content .left-content .noticias_gerais ul {margin: 0; padding: 0; list-style: none; width: 100%; margin-top: -1px}
+
+.content .left-content .noticias_gerais ul li {width: 100%}
+
+.content .left-content .noticias_gerais ul li a {width: 100%; display:  block; box-sizing: border-box; padding: 0 15px; line-height: 40px; border-top: dotted thin #ccc;}
+
+.content .left-content .noticias_gerais ul li .MoreNews {background-color: #ccc; text-align: right;}
+
+.content .left-content .noticias_curso {margin-bottom: 30px}
+
+.content .left-content .noticias_curso ul {margin: 0; padding: 0; list-style: none; overflow: hidden;}
+
+.content .left-content .noticias_curso ul li {width: 50%; float: left; display: block;}
+
+.content .left-content .noticias_curso label {width: 100%; padding: 5px 8px; font: 10pt arial; background-color: #ccc; display: block; cursor: pointer; line-height: 40px; text-align: center; box-sizing: border-box;}
+
+.content .left-content .noticias_curso .content-tab {background-color: #e3e3e3; display: none; width: 800px; margin-top: -1px; border: solid thin; border-color: #aaa; border-top: none; color: #666; box-sizing: border-box;}
+
+.content .left-content .noticias_curso .tab-it:checked ~ .content-tab {display: block;}
+
+.content .left-content .noticias_curso .tab-it:checked ~ label {background-color: #2c3e50; color: #ecf0f1}
+
+.content .left-content .noticias_curso #ctt2 {margin-left: -400px;}
+
+.content .left-content .noticias_curso input[type="radio"]{display: none;}
+
+.content .left-content .noticias_curso .content-tab ul {width: 100%; overflow: hidden; margin-top: -2px}
+
+.content .left-content .noticias_curso .content-tab ul li {display: block; width: 100%;}
+
+.content .left-content .noticias_curso .content-tab ul li a {line-height: 40px; padding: 0 10px; border-top: dotted thin #ccc;}
+
+.back-top {width: 50px; height: 50px; position: fixed; bottom: 32px; right: 0; cursor: pointer; background-image: url("../images/back-top.png"); background-size: 100%; background-position: center; transition: background 0.3s; display: none;}
+
+.back-top:hover {background-image: url("../images/back-top-hvr.png"); background-size: 130%;}
+
+footer {width: 100%; background-color: #005570; color: white; overflow: hidden;}
+
+footer .footer {min-width: 900px; max-width: 1010px; line-height: 30px; margin: auto; text-align: center}
+
+.slide_nav_item {background: rgba(51, 51, 51, 0.7); opacity: 0.1; overflow: hidden; width: auto; display: block; position: absolute; z-index: 99; padding: 40px 20px; line-height: 270px; cursor: pointer; color: white; font-size: 22pt}
+
+.slide_nav_item:hover {opacity: 0.7}
+
+#prv {float: left;}
+
+#nxt {margin-left: 742px}

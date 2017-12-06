@@ -1,0 +1,71 @@
+.content-pages {margin: 40px 0; width: 100%;}
+
+.content-pages ul {list-style: none; margin: 0; padding: 0; overflow: hidden;}
+
+.content-pages ul li {float: left; overflow: hidden; display: block;}
+
+.content-pages ul li div.image {width: 245px; height: 245px; margin: 10px; overflow: hidden; float: left;}
+
+.content-pages ul li div.image img {height: 100%; z-index: 0; display: block; overflow: hidden; float: left;}
+
+span.title-abrir {background-color: rgba(50, 50, 50, 0.8); width: 245px; height: 245px; display: block; float: left; color: white; margin-right: -245px; z-index: 2; position: relative; text-align: center; line-height: 245px; font-size: 14pt; opacity: 0; transition: 0.2s}
+
+span.title-abrir:hover {opacity: 0.7;}
+
+span.title-ano {color: #888; font-size: 12pt; display: block; clear: both; padding: 0 20px; padding-top: 30px}
+
+.location {clear: both; width: 100%; display: block; margin-top: 30px}
+
+.location .item-location {color: #3498db; text-transform: uppercase; font-size: 8pt; text-decoration: none;}
+
+.title-style1 {text-transform: uppercase; font: 20pt arial; font-weight: bolder}
+
+.table {width: 100%}
+
+.table tr {width: 100%;}
+
+.table tr th {text-transform: uppercase; text-align: left; border: none; box-sizing: border-box; border-top: solid thin #ccc; line-height: 40px;}
+
+.table tr .text-center {text-align: center;}
+
+.table tr td {border-top: solid thin #ccc; padding: 20px 0; line-height: 20px }
+
+.table tr .nome-lattes {text-transform: uppercase;}
+
+.table tr .link-LATTES {color: #ca4c3f; font: 9pt arial;}
+
+.table tr .link-LATTES:hover {color: #ca4c3f}
+
+.content-tab-disc {margin-left: 50px; height: 0; transition: 0.3}
+
+.content-disc {list-style: none; margin: 0; padding: 0}
+
+.content-disc li {overflow: hidden; box-sizing: border-box; display: block;}
+
+.content-disc li .tab-it {display: none;}
+
+.content-disc li label {font-size: 14pt; color: #0064ff; padding: 10px; cursor: pointer; float: left;}
+
+.content-disc li .tab-it:checked ~ .content-tab-disc{height: initial;}
+
+.status-check {width: 20px; height: 20px; float: left; margin-right: 10px; background-image: url("../images/plus.png"); background-size: 100%}
+
+.content-disc li .tab-it:checked ~ label .status-check {background-image: url("../images/minus.png");}
+
+h1.title {font-size: 20pt; color: #424242; margin-bottom: 10px}
+
+span.data {margin: 20px 0; display: block; font-size: 8pt; color: #888;}
+
+.image-capa {width: 90%; margin: auto; overflow: hidden; display: block; margin-bottom: 20px}
+
+.image-capa img {width: 100%; border-radius: 5px; border: solid thin #999; box-sizing: border-box;}
+
+p.content-text {color: #444; font-size: 1.1em;min}
+
+.container-login {width: 70%; margin: auto;}
+
+.container-login input {width: 100%; box-sizing: border-box; padding: 10px; margin-bottom: 5px; border-radius: 3px; border: solid thin #ccc;  font-size: 12pt}
+
+.container-login input[type="submit"] {cursor: pointer; background-color: #2980b9; font-size: 14pt; color: white}
+
+.container-login input[type="submit"]:hover {background-color: #3498db}

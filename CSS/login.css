@@ -1,0 +1,13 @@
+body {background-color: #ecf0f1}
+
+section.login-container {width: 400px; margin: auto;}
+
+section.login-container img {width: 70%; margin: 20px auto; display: block;}
+
+input, textarea, select {outline: none;}
+
+section.login-container input {width: 100%; box-sizing: border-box; padding: 8px 15px; font-size: 16pt; margin-bottom: 10px; border-radius: 3px; border: solid thin #ccc;}
+
+section.login-container input[type="submit"] {background-color: #2980b9; border: none; color: white; cursor: pointer;}
+
+section.login-container input[type="submit"]:hover {background-color: #3498db}

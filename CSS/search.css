@@ -1,0 +1,13 @@
+.container-search {margin-top: 40px;}
+
+.container-search .item-search {width: 100%; display: block; overflow: hidden; position: relative; border: solid thin #888; box-sizing: border-box; margin-bottom: 15px; background-color: #ddd}
+
+.container-search .item-search span.img-capa {width: 100px; height: 100px; display: block; float: left;;}
+
+.container-search .item-search div.data-nws {margin-left: 40px; display: block; float: left; max-width: 650px;}
+
+.container-search .item-search div.data-nws h1.title-search {font-size: 15pt; margin: 10px 0}
+
+.container-search .item-search div.data-nws span {display: block;}
+
+.container-search .item-search div.data-nws span.date {color: #999; font-size: 0.8em; margin-bottom: 5px}
